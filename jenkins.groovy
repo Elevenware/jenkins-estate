@@ -5,5 +5,5 @@
 
 import static com.elevenware.baker.JenkinsEnvironment.configure
 
-configure("./estate.json")
+configure("estate.json")
 
