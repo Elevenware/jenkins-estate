@@ -6,5 +6,5 @@
 import static com.elevenware.baker.JenkinsEnvironment.configure
 
 def config = readFileFromWorkspace("estate.json")
-configure(config)
+configure(this, config)
 
